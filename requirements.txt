@@ -1,0 +1,29 @@
+# Agent Framework
+google-adk>=1.19.0
+litellm>=1.80.0
+
+# API
+fastapi>=0.109.0
+uvicorn[standard]
+
+# Snowflake
+snowflake-snowpark-python
+
+# Observability
+opentelemetry-api
+opentelemetry-sdk
+opentelemetry-exporter-gcp-trace
+
+# Utilities
+python-dotenv
+pydantic
+httpx
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+
+
+prometheus-client
+tenacity
